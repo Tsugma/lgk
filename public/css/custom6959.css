@@ -1,0 +1,221 @@
+.header-middle {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    max-width: 1600px;
+    z-index: 1;
+    padding: 16px 0 0 0;
+}
+ul#menu-primary li a {
+    padding: 17px 20px;
+    font-family: 'Lobster';
+    color: #fff;
+    letter-spacing: 1px;
+}
+ul#menu-primary li a:hover {
+    color: #F7881B;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
+}
+.about-sec {
+	padding: 30px 0;
+}
+.about-sec h1 {
+	color:#444444;
+}
+.blue-text {
+	color: #0f7098;
+}
+.apply-btn {
+    background: #F7881B;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 10px 31px;
+    border-radius: 8px;
+	border:1px solid #F7881B;
+    display: inline-block;
+    margin-top: 10px;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.6);
+    margin-right: 9px;
+    text-transform: uppercase;
+    font-weight: 300;
+	line-height: 1.6;
+}
+.apply-btn:hover {
+	color:#F7881B;
+	background:transparent;
+}
+.whatsapp-btn {
+	background: #23A213;
+    color: #fff;
+    padding: 0px 17px 6px;
+    border-radius: 8px;
+	border:1px solid #23A213;
+    font-size: 25px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.6);
+    display: inline-block;
+    line-height: 1.6;
+}
+.whatsapp-btn:hover {
+	color:#23A213;
+	background:transparent;
+}
+.adv-sec {
+	background:url('../images/c_04.jpg');
+	background-size:cover;
+	color:#61cffc;
+	padding:30px 0;
+}
+.adv-sec h1,.adv-sec h2 {
+	color:#fff;
+}
+.adv-sec h2 {
+	margin-top:10px;
+}
+.adv-box {
+	min-height:250px;
+}
+.loan-sec {
+	background:#F1F1F1;
+	padding:45px 0 0 0;
+    box-shadow: inset 0px -4px 8px 0px rgba(0,0,0,0.15);
+}
+.loan-sec h1 {
+	color:#444444;
+}
+.loan-box {
+	background:url('../images/white-shadow.png');
+	background-size:cover;
+	background-position: bottom center;
+	min-height:383px;
+	min-width:570px;
+	margin:auto;
+	padding: 30px 30px 0 30px;
+}
+.loan-box-1 {
+	background:url('../images/white-shadow.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position: bottom center;
+	min-height:383px;
+	min-width:570px;
+	margin:auto;
+	padding: 15px 30px 0 30px;
+}
+.chart-sec {
+	padding:45px 0;
+	color:#000;
+}
+.su-table.interest tr.dark-row.su-even td {
+    text-align: center;
+    background: #282828!important;
+    color: #fff;
+}
+.su-table.interest tr.dark-row td.blue-boxy {
+    background: #0F7198 !important;
+    font-family: 'Lobster';
+}
+.su-table.interest  td {
+    padding: 10px 1em !important;
+}
+.int-tb {
+	overflow:auto;
+}
+.contact-sec {
+	background:url('../images/c_06.jpg');
+	background-size:cover;
+	background-position:bottom center;
+	color:#fff;
+}
+.number-call {
+	display: inline-block;
+    font-size: 60px;
+    font-family: 'Lobster';
+    vertical-align: middle;
+    margin-left: 10px;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.75);
+}
+#footer .footer-inner {
+	display:none;
+}
+#colophon {
+    background: #0F7198;
+    color: #fff;
+    font-size: 12px;
+}
+.btn.btn-default, .wpcf7-submit {
+    border: 1px solid #F7881C;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #F7881C;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 8px 30px;
+    margin-top: 15px;
+    transition: all 0.3s ease 0s;
+	margin-bottom:10px;
+}
+.btn.btn-default:hover, .wpcf7-submit:hover {
+    border: 1px solid #F7881C;
+    color: #F7881C;
+    background-color: transparent;
+}
+.wpcf7-form input:not([type="submit"]):not([type="reset"]), .wpcf7-form textarea {
+    margin-bottom: 15px;
+    padding: 8px;
+    padding-left: 13px;
+}
+.wpcf7-form select {
+	margin-bottom: 15px;
+    padding: 8.5px;
+    padding-left: 13px;
+}
+input[type="text"], input[type="email"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+    border-radius: 6px;
+}
+div.wpcf7-validation-errors {
+    text-align: center;
+	clear:both;
+}
+i.fa.fa-map-marker {
+    color: #F5891A;
+}
+a.ws-call {
+	color:#fff;
+}
+@media (max-width: 1199px) {
+.loan-box, .loan-box-1 {
+    background:#fff;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	min-height:auto;
+	min-width:auto;
+	padding:30px 30px;
+}
+}
+@media (max-width: 991px) {
+.nflex, .nflex-center {
+	display:block;
+}
+.img-ads {
+	display:none;
+}
+.loan-box, .loan-box-1 {
+	margin:15px 0;
+}
+.loan-sec {
+	padding-bottom:45px;
+}
+}
+@media (max-width: 767px) {
+.adv-box {
+    min-height: auto;
+}
+}
+@media (max-width: 480px) {
+.number-call {
+    font-size: 40px;
+}
+}
